@@ -1,0 +1,38 @@
+.app {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .todo-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .todo-form input, .todo-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .todo-form button {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .todo-list {
+    margin-top: 20px;
+  }
+  
+  .todo-item {
+    background: #f1f1f1;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
